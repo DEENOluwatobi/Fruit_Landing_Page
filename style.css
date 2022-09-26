@@ -1,0 +1,633 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+    box-shadow: 5px 5px 30px rgba(225, 221, 221, 0.026);
+    background-color: rgba(189, 7, 22, 0.861);
+}
+.logo img{
+    width: 80px;
+    height: 50px;
+}
+nav .nav-link{
+    display: flex;
+}
+.nav-link li{
+    list-style: none;
+}
+.nav-link li a{
+    padding: 20px;
+    
+    margin: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Calibri;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(255, 255, 255)
+}
+
+/* HERO SECTION */
+main{
+    background-image: url(img/hero.jpg);
+    height: 90vh;
+    background-size: cover;
+}
+.dark{
+    padding: 80px 120px;
+}
+.dark h1{
+    color: rgba(234, 10, 29, 0.924);
+    font-size: 6em;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+.dark h3{
+    color: rgba(21, 136, 6, 0.882);
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.dark p{
+    color: rgb(94, 94, 90);
+    width: 35%;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.dark button{
+    width: 250px;
+    height: 50px;
+    background-color: rgba(234, 10, 29, 0.924);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+/* ARTICLE SECTION */
+article{
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: wrap;
+    gap: 20px;
+}
+article .art{
+width: 40%;
+}
+
+article .con{
+    padding: 40px;
+    margin: 0;
+}
+article .art h2{
+    color:rgb(44, 44, 42);
+    width: 90%;
+    font-size: 1.7em;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+article .art p{
+    width: 100%;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 10px 0;
+    color:rgb(32, 69, 38);
+}
+article .art button{
+    width: 65%;
+    height: 50px;
+    background-color: rgba(21, 136, 6, 0.882);
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin: 20px 0;
+}
+article .art-2{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(234, 10, 29, 0.924);
+    color: white;
+    text-align: center;
+} 
+article .art-2 i{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+article .art-2 h2{
+    color:white;
+    width: 90%;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+article .art-2 p{
+    width: 100%;
+    font-size: .8em;
+    padding: 10px 0;
+    color:white;
+}
+article .art-3{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(246, 170, 5);
+    color: white;
+    text-align: center;
+}
+article .art-3 i{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+article .art-3 h2{
+    color:white;
+    width: 90%;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+article .art-3 p{
+    width: 100%;
+    font-size: .8em;
+    padding: 10px 0;
+    color:white;
+}
+article .art-4{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(21, 136, 6, 0.882);
+    color: white;
+    text-align: center;
+}
+article .art-4 i{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+article .art-4 h2{
+    color:white;
+    width: 90%;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+article .art-4 p{
+    width: 100%;
+    font-size: .8em;
+    padding: 10px 0;
+    color:white;
+}
+
+/* SUBSCRIPTION SECTION */
+.subs{
+    background-image: url(img/subs.jpg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subs .container{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+.sub-con{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.subs h1{
+    font-size: 4em;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: rgb(3, 25, 9);
+}
+.subs input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 0 5px;
+    font-size: 1em;
+}
+.subs button{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border: 2px;
+    background-color: rgba(234, 10, 29, 0.924);
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+.subs button:hover{
+    background-color: rgba(243, 38, 55, 0.924);
+}
+
+/* TOP TIPS SECTION */
+.tt{
+    padding: 20px 150px;
+    background-color: rgba(189, 7, 22, 0.982);
+}
+.tt-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.tt-con h2{
+    font-size: 2.5em;
+    color: white;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+.tt-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 30px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.top i{
+    font-size: 2em;
+    color: white;
+}
+.top h5{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+}
+.top h6{
+    font-size: .9em;
+    padding: 20px 0;
+    color: whitesmoke;
+    font-weight: 500;
+    font-style: italic;
+}
+.top img{
+    width: 30px;
+}
+
+/* SIMPLE TIPS SECTION */
+.simp{
+    padding: 50px 150px;
+}
+.simp-con{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 50px;
+}
+.simp-right h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: rgb(3, 59, 3);
+    margin-bottom: 20px;
+}
+.simp-right p{
+    color: rgb(35, 34, 34);
+}
+.simp-right button{
+    background-color: rgba(21, 136, 6, 0.882);
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: .9em;
+    margin: 30px 0;
+    cursor: pointer;
+}
+.simp-left{
+    position: relative;
+}
+.simp-left img{
+    width: 450px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.a1{
+    content: '';
+    position: absolute;
+    background-color: rgb(249, 213, 137);
+    border: 8px solid rgba(199, 191, 192, 0.982);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: -20px;
+    right: 0px;
+}
+.a2{
+    content: '';
+    position: absolute;
+    background-color: rgb(240, 255, 247);
+    border: 10px solid rgb(117, 152, 106);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: -100px;
+    bottom: 100px;
+}
+.a3{
+    content: '';
+    position: absolute;
+    background-color:  rgba(244, 102, 113, 0.982);
+    border: 2px solid rgba(84, 4, 4, 0.338);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    bottom: -30px;
+    right: 150px;
+}
+
+/* HOW SECTION */
+.how{
+    padding: 50px 150px;
+    background-color: rgb(226, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.how-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    min-height: auto;
+    border-radius: 2px;
+    box-shadow: 10px 10px 30px rgb(183, 180, 180);
+    margin: 70px 0;
+    position: relative;
+}
+.how-container ::after{
+    content: '';
+    position: absolute;
+    background-color: rgb(246, 170, 5);
+    width: 180px;
+    height: 180px;
+    border: 15px solid rgb(226, 224, 224);
+    border-radius: 50%;
+    bottom: -70px;
+    right: -70px;
+}
+.how-container ::before{
+    content: '';
+    position: absolute;
+    background-color: rgba(41, 142, 28, 0.182);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top:-90px;
+    left: 50px;
+}
+.hc-1{
+    background-color: white;
+    padding: 50px; 
+}
+.hc-1 h1{
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.hc-1 p{
+    font-size: .9em;
+    width: 80%;
+}
+.hc-1 button{
+    background-color: rgb(246, 170, 5);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: .9em;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.hc-2{
+    background-image: url(img/girl2.jpg);
+} 
+
+/* SEASONAL FRUIT AND VEG SECTION */
+.sfv{
+    padding: 50px 150px;
+}
+.sfv-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.sfv-1 h1{
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(216, 10, 28);
+}
+.sfv-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 30px 0;
+}
+.sfv-img{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 30px rgb(190, 187, 187);
+    transition: .5s;
+}
+.sfv-img:hover{
+    opacity: .8;
+}
+.sfv-img:nth-child(1){
+    background-image: url(img/grapes.jpg);
+    background-size: cover;
+}
+.sfv-img:nth-child(2){
+    background-image: url(img/apples.jpg);
+    background-size: cover;
+}
+.sfv-img:nth-child(3){
+    background-image: url(img/strawberries.jpg);
+    background-size: cover;
+}
+.sfv-img:nth-child(4){
+    background-image: url(img/pumpkins.jpg);
+    background-size: cover;
+}
+.sfv-img:nth-child(5){
+    background-image: url(img/cabbages.jpg);
+    background-size: cover;
+}
+.sfv-img:nth-child(6){
+    background-image: url(img/pepper.jpg);
+    background-size: cover;
+}
+
+/* BE MINDFUL SECTION */
+.bm{
+    padding: 30px 150px;
+    background-color: rgb(226, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bm-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    min-height: auto;
+    border-radius: 2px;
+    /* box-shadow: 5px 5px 30px rgb(183, 180, 180); */
+    /* margin: 2px 0; */
+    position: relative;
+}
+.bm-con ::after{
+    content: '';
+    position: absolute;
+    background-color: rgb(236, 204, 133);
+    width: 300px;
+    height: 300px;
+    border: 30px solid rgb(226, 224, 224);
+    border-radius: 50%;
+    bottom: 30%;
+    right: 180px;
+}
+.bm-con ::before{
+    content: '';
+    position: absolute;
+    background-color: rgba(138, 236, 133, 0.739);
+    width: 150px;
+    height: 150px;
+    border: 30px solid rgb(226, 224, 224);
+    border-radius: 50%;
+    top: 15px;
+    right: 50px;
+    z-index: 1;
+}
+.bm-1{
+    padding: 50px;
+}
+.bm-1 h3{
+    font-size: 2em;
+    font-weight: bold;
+    width: 80%;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 15px solid rgb(59, 57, 51);
+}
+
+.bm-1 button{
+    background-color: rgb(59, 57, 51);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: .9em;
+    margin: 30px 0 0 0;
+    cursor: pointer;
+}
+.bm-2 {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+/* ABOUT US SECTION */
+.abt{
+    padding: 30px 150px;
+}
+.abt h1{
+    font-size: 3em ;
+    color: rgba(189, 7, 22, 0.982);
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+.abt-con{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    background-color: rgb(224, 220, 220);
+}
+.abt-1,
+.abt-2{
+    padding: 20px;
+}
+.abt-1 p{
+    margin: 30px 0;
+}
+.abt-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(189, 7, 22, 0.982);
+}
+.abt-2 .fa{
+    font-size: 2em;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgba(189, 7, 22, 0.982);
+    text-align: center;
+    padding: 20px;
+}
+footer h5{
+    color: white;
+    letter-spacing: 1px;
+}
